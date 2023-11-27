@@ -86,9 +86,12 @@ public class Graph {
 
     //Method to display the frequencies assigned to each tower
     public void displayFrequencies() {
+        System.out.println("| Node   | Frequency |");
+        System.out.println("|--------|-----------|");
+    
         for (int i = 0; i < nodes.size(); i++) {
             Tower tower = nodes.get(i);
-            System.out.println("Node: " + tower.getName() + ", Frequency: " + tower.getFrequency());
+            System.out.printf("| %-6s | %-9d |\n", tower.getName(), tower.getFrequency());
         }
     }
 

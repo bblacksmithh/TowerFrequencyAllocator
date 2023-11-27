@@ -15,13 +15,13 @@ public class Main {
         graph.establishConnections();
 
         // Display distances between tower pairs
-        displayDistances(graph);
+        //displayDistances(graph);
 
         //Allocate Frequencies to each tower
         graph.assignFrequencies();
 
         //Display Connections made
-        graph.displayConnections();
+        //graph.displayConnections();
 
         //Displays frequencies assigned
         graph.displayFrequencies();
